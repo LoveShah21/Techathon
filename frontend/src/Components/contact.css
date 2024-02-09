@@ -1,0 +1,106 @@
+*
+{
+    --orange:#FF7A00;
+    --mainbg:#f5e7e7;
+    margin: 0px;
+    /* overflow: hidden; */
+}
+.peacekaka
+{
+    font-family: Carattere;
+}
+.contactm
+{
+    background-color: var(--mainbg);
+}
+.contact-main
+{
+    background-color: var(--mainbg);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-main h1
+{
+    color: grey;
+    margin-top: 4%;
+}
+.contact-main span
+{
+    margin-top: 6%;
+    font-size: 200px;
+}
+.contact-main 
+{
+    margin-top: 10%;
+    font-size: 26px;
+}
+.whoarewe
+{
+    display: flex;
+    /* flex-direction: ; */
+    align-items: center;
+    flex-direction: column;
+    font-size: 35px;
+    text-align:left;
+}
+.contact-health
+{
+    background-color: black;
+}
+.health-imp
+{
+    font-size: 100px;
+    margin-left: 5%;
+    color: white;
+}
+.talktous
+{
+    text-decoration: underline;
+    color: #DFAEAC;
+    font-size: 100px;
+    margin-left: 5%;
+}
+.cform
+{
+    display: flex;
+    flex-direction: row;
+}
+.cform span
+{
+    font-size: 33px;
+    margin-left: 50px;
+}
+.cinput
+{
+    height: 33px;
+    margin-left: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    padding-left: 5%;
+    background: none;
+    /* padding: 5px; */
+}
+.cinput2
+{
+    height: 100px;
+}
+.cinputs button
+{
+    margin-left: 91%;
+    width: 150px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #FF7A00;
+    border: none;
+    transition: 0.5s all;
+    font-size: 25px;
+}
+.cinputs button:hover
+{
+    background-color: black;
+    color: white;
+}
